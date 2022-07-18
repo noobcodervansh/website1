@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biggest University</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="style1.css" rel="stylesheet">
+    <!-- link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" rel="stylesheet"> -->
+</head>
+<body>
+    <section class="sub-header">
+        <nav class="nav">
+            <img class="logo" src="img/logo.png">
+            <div class="nv" id="navLinks"></div>
+            <ul class="navlinks">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="#" style="color:black; font-weight: 700; ">About</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        </nav>
+    </section>
+
+   <!-- ---------aboutus content------- -->
+
+
+   <section class="about-us-content">
+       <div class="about-us-row">
+        <div class="about-us-col">
+               <h1>We Are The World's Largest Unversity</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, fugiat maiores. Quos obcaecati voluptates perferendis praesentium atque, nesciunt expedita, quas at labore adipisci, rerum veritatis nemo! Id iste excepturi, praesentium odio fugit labore molestias soluta adipisci provident! Inventore, esse praesentium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ratione quam porro aut iure at laudantium in, recusandae, voluptatibus accusantium quisquam eum magni consequuntur distinctio inventore libero quos ipsa tempora?</p>
+                <a href="#" >EXPLORE NOW</a>
+           </div>
+           <div class="about-us-col">
+               <img src="img/about.jpg">
+           </div>
+       </div>
+   </section>
+
+
+
+
+    <!-- ---------footer------- -->
+
+
+    <footer class="footer" style="background-color: rgb(250, 241, 243);margin-top: -65px;">
+        <h4 style="color: black;">About Us</h4>
+        <P style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia officiis atque ullam aliquid repellat pariatur possimus nulla nemo dolore ea.
+        </P>
+    </footer>
+
+
+
+    <script>
+       const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.navlinks');
+        burger.addEventListener('click', function(){
+                nav.classList.toggle('appear');
+        });
+
+    </script>
+</body>
+</html>

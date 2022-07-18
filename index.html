@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biggest University</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="style1.css" rel="stylesheet">
+    <link href="home.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header">
+        <nav class="nav">
+            <img class="logo" src="img/logo.png">
+            <div class="nv" id="navLinks"></div>
+            <ul class="navlinks">
+                <li><a href="#" style="color: black; font-weight: 700;" class="my">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        </nav>
+        <div class="text-box">
+            <div class="intro">
+            <h1>World's Biggest University</h1>
+            <p>Creating website is the easiest thing in the world just <div class="oko">need to learn Html,Css and</div><div class="half-para"> JavaScript and you are good to go </div></p>
+            <div class="btn">
+            <a href="https://www.youtube.com/channel/UCTK_KDIGOOi1G6AHMO8iofA" class="hero-btn">Visit us to know more</a></div>
+        </div>
+        </div>
+    </section>
+
+
+<!-- <---------courses-------->
+
+
+    <section class="courses">
+        <h1 class="courses-head">Courses We Offer</h1>
+        <div class="row">
+            <div class="col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed et perspiciatis, doloremque </p>
+            </div>
+            <div class="col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed et perspiciatis, dolorem</p>
+            </div>
+            <div class="col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed et perspiciatis, doloremque perferend</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- <---------campus----------->
+
+
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <div class="row">
+            <div class="campus-col">
+                <img src="img/london.png" alt="campus">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="img/newyork.png" alt="campus">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="img/washington.png" alt="campus">
+                <div class="layer">
+                    <h3>WASHINGTON DC</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- <-------------faclities-------------->
+
+    
+
+    <section class="faclities">
+        <h1>Faclities We Provide</h1>
+        <div class="faclities-row">
+            <div class="faclities-col">
+                <img src="img/library.png">
+                <h3>World Class Library</h3>
+            </div>
+            <div class="faclities-col">
+                <img src="img/basketball.png">
+                <h3 style="padding-left: 85px;">Best Play Ground</h3>
+            </div>
+            <div class="faclities-col">
+                <img src="img/cafeteria.png">
+                <h3>Healthy And Tasty Food</h3>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ----------testimonials------- -->
+
+
+
+    <section class="testi">
+        <h1>What Our Students Say</h1>
+    <div class="testi-row">
+        <div class="testi-col">
+            <img src="img/user1.jpg">
+            <h3>Champaklal</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="testi-col">
+            <img src="img/user2.jpg">
+            <h3>Jethalal</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        </div>
+    </div>
+    </section>
+  
+
+
+
+
+    <!-- -------call to action--- -->.
+
+
+
+    <section class="cta">
+        <h1 >Enroll For Various Online Courses<br> Anywhere From The World</h1>
+        <a href="#" class="hero-enroll">Enroll Now</a>
+    </section>
+
+
+
+
+    <!-- ---------footer------- -->
+
+
+
+    <footer class="footer">
+        <h4>About Us</h4>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia officiis atque ullam aliquid repellat pariatur possimus nulla nemo dolore ea.</P>
+    </footer>
+    <script>
+       const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.navlinks');
+        burger.addEventListener('click', function(){
+                nav.classList.toggle('appear');
+        });
+
+    </script>
+</body>
+</html>

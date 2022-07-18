@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biggest University</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="style1.css" rel="stylesheet">
+    <link href="about.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav class="nav">
+            <img class="logo" src="img/logo.png">
+            <div class="nv" id="navLinks"></div>
+            <ul class="navlinks">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#" style="color: black; font-weight: 700; ">Contact</a></li>
+            </ul>
+        </div>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        </nav>
+    </section>
+
+
+    <!-- ---------contact--------- -->
+
+    
+
+   <section class="location">
+    <h1>Our Location</h1>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20920.650678403315!2d74.90013770986943!3d32.69257270274452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391e83e264629e33%3A0x3e7030ccb00cadce!2sWave%20Mall%2C%20Jammu!5e0!3m2!1sen!2sin!4v1658036481596!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+
+
+
+<!-- ---------contact------- -->
+
+
+
+
+
+<section class="contact-us">
+    <div class="contact-row">
+        <div class="contact-col" style="margin-left: 50px;">
+            <div class="info">
+                <h5>Xyz Building</h5>
+                <p>ABC Buliding</p>
+            </div>
+            <div class="info">
+                <h5>8493928320</h5>
+                <p>Monday To Saturday 10 AM To 6 PM</p>
+            </div>
+            <div class="info">
+                <h5>vanshkoul0@gmail.com</h5>
+                <p>Email Us For Any Querry</p>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form>
+                <input type="text" placeholder="Enter Your Namr" required>
+                <input type="email" placeholder="Enter email Adress" required>
+                <textarea rows="8" placeholder="Messgae" required></textarea>
+                <button class="blog-button last-button">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+    <!-- ------footer---- -->
+
+
+
+
+    <footer class="footer" style="background-color: rgb(250, 241, 243);margin-top:-8vh; margin-top: 20px;">
+        <h4 style="color: black;">About Us</h4>
+        <P style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia officiis atque ullam aliquid repellat pariatur possimus nulla nemo dolore ea.
+        </P>
+    </footer>
+
+    <script>
+       const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.navlinks');
+        burger.addEventListener('click', function(){
+                nav.classList.toggle('appear');
+        });
+
+    </script>
+</body>
+</html>
